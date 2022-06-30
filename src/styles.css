@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(149, 206, 199);
+}
+.header {
+  height: 70px;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  color: rgb(73, 73, 73);
+  text-shadow: 2px 2px 4px rgb(237, 237, 237);
+}
+.body {
+  /* background-color: darkgoldenrod; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.rightSide {
+  /* background-color: blue; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.graphicArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.graphic {
+  background-color: cornsilk;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.leftSide {
+  /* background-color: brown; */
+  width: 30%;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+}
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+footer {
+  align-items: center;
+}
+.button {
+  cursor: pointer;
+  background-color: rgb(73, 73, 73);
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+  border-color: rgb(73, 73, 73);
+  border-radius: 15%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
